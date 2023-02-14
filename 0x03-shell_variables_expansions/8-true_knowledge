@@ -1,2 +1,2 @@
 #!/bin/bash
-$((128 + $TRUEKNWOWLEDGE))
+echo $((128 + $TRUEKNWOWLEDGE))
