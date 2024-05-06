@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Prints 'Best School' ten times apart from iteration 4 and 8
+count=1
+while [ "$count" -le 10 ]
+do
+    if [ "$count" == 4 ]; then
+        echo "bad luck"
+    elif [ "$count" == 8 ]; then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    ((count++))
+done

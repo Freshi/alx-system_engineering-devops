@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Prints 'Best School' while i is not 9
+count=1
+while [ "$count" -le 10 ]
+do
+    if [ "$count" == 9 ]; then
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    ((count++))
+done
