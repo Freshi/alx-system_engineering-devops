@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Forcefully terminate the 7-highlander program
+kill -s SIGKILL "$(pgrep -f "7-highlander")"
