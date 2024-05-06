@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Print 'Best School' ten times using until loop
 count=1
-until [ "$count" == 10 ]
+until [ "$count" == 11 ]
 do
   echo 'Best School'
   ((count++))
