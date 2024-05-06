@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# traps sigterm and prints to infinity and beyond
+trap "echo I am Invincible!!!" SIGTERM
+while true; do
+    echo "To Infinity and beyond"
+    sleep 2
+done
