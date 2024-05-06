@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Prints content of pwd in a list
+for file in *; do
+    echo "$file" | cut -d "-" -f2 
+done
