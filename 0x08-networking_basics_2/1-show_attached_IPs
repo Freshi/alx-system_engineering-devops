@@ -1,0 +1,3 @@
+#/usr/bin/env bash
+#Script that lists all IPV4 addresses
+ip -4 address | cut -d " " -f 14

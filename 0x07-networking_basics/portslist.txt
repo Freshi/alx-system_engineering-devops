@@ -1,0 +1,44 @@
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.53:domain       0.0.0.0:*               LISTEN      121/systemd-resolve 
+tcp        0      0 localhost:postgresql    0.0.0.0:*               LISTEN      245/postgres        
+tcp6       0      0 localhost:postgresql    [::]:*                  LISTEN      245/postgres        
+udp        0      0 127.0.0.53:domain       0.0.0.0:*                           121/systemd-resolve 
+udp        0      0 localhost:323           0.0.0.0:*                           -                   
+udp6       0      0 localhost:323           [::]:*                              -                   
+Active UNIX domain sockets (only servers)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     STREAM     LISTENING     3013375  2/init               /run/WSL/2_interop
+unix  2      [ ACC ]     STREAM     LISTENING     3018683  -                    /run/WSL/1_interop
+unix  2      [ ACC ]     STREAM     LISTENING     3018691  -                    /var/run/dbus/system_bus_socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     3021325  -                    /mnt/wslg/weston-notify.sock
+unix  2      [ ACC ]     STREAM     LISTENING     3022041  -                    /mnt/wslg/runtime-dir/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     3008149  121/systemd-resolve  /run/systemd/resolve/io.systemd.Resolve
+unix  2      [ ACC ]     STREAM     LISTENING     3022229  459/systemd          /run/user/0/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     3022013  -                    /tmp/dbus-UV6U8nHiOL
+unix  2      [ ACC ]     STREAM     LISTENING     3022235  459/systemd          /run/user/0/gnupg/S.dirmngr
+unix  2      [ ACC ]     STREAM     LISTENING     3022237  459/systemd          /run/user/0/gnupg/S.gpg-agent.browser
+unix  2      [ ACC ]     STREAM     LISTENING     3022239  459/systemd          /run/user/0/gnupg/S.gpg-agent.extra
+unix  2      [ ACC ]     STREAM     LISTENING     3022241  459/systemd          /run/user/0/gnupg/S.gpg-agent.ssh
+unix  2      [ ACC ]     STREAM     LISTENING     3022243  459/systemd          /run/user/0/gnupg/S.gpg-agent
+unix  2      [ ACC ]     STREAM     LISTENING     3022245  459/systemd          /run/user/0/pk-debconf-socket
+unix  2      [ ACC ]     STREAM     LISTENING     3022178  245/postgres         /var/run/postgresql/.s.PGSQL.5432
+unix  2      [ ACC ]     STREAM     LISTENING     3022247  459/systemd          /run/user/0/snapd-session-agent.socket
+unix  2      [ ACC ]     STREAM     LISTENING     2982846  1/init               /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     2982848  1/init               /run/systemd/userdb/io.systemd.DynamicUser
+unix  2      [ ACC ]     STREAM     LISTENING     2982849  1/init               /run/systemd/io.system.ManagedOOM
+unix  2      [ ACC ]     STREAM     LISTENING     2982864  1/init               /run/systemd/journal/stdout
+unix  2      [ ACC ]     SEQPACKET  LISTENING     2982866  1/init               /run/udev/control
+unix  2      [ ACC ]     STREAM     LISTENING     3022268  -                    /mnt/wslg/PulseServer
+unix  2      [ ACC ]     STREAM     LISTENING     3024046  388/init             /run/WSL/388_interop
+unix  2      [ ACC ]     STREAM     LISTENING     3018720  42/systemd-journald  /run/systemd/journal/io.systemd.journal
+unix  2      [ ACC ]     STREAM     LISTENING     4547904  -                    /mnt/wslg/runtime-dir/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     4547905  -                    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     3021562  351/python3.10       /run/subiquity/socket
+unix  2      [ ACC ]     STREAM     LISTENING     6053055  -                    /mnt/wslg/PulseAudioRDPSource
+unix  2      [ ACC ]     STREAM     LISTENING     6047739  -                    /mnt/wslg/PulseAudioRDPSink
+unix  2      [ ACC ]     STREAM     LISTENING     3011995  1/init               /run/apport.socket
+unix  2      [ ACC ]     STREAM     LISTENING     3011997  1/init               /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     3012008  1/init               /run/snapd.socket
+unix  2      [ ACC ]     STREAM     LISTENING     3012010  1/init               /run/snapd-snap.socket
+unix  2      [ ACC ]     STREAM     LISTENING     3010929  1/init               /run/uuidd/request
